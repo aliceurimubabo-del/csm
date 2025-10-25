@@ -1,0 +1,30 @@
+{
+  "name": "csm-backend",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Card & Student Management System backend (Node.js + Express + Prisma + Supabase Postgres)",
+  "scripts": {
+     "start": "node src/index.js",
+  "dev": "nodemon src/index.js",
+    "prisma:generate": "prisma generate",
+    "prisma:migrate": "prisma migrate dev",
+    "prisma:deploy": "prisma migrate deploy"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "@prisma/client": "^5.20.0",
+    "@supabase/supabase-js": "^2.75.1",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "multer": "^1.4.5-lts.1",
+    "node-fetch": "^3.3.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.7",
+    "prisma": "^5.20.0"
+  }
+}

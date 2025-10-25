@@ -1,0 +1,21 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+model Student {
+  id            Int      @id @default(autoincrement())
+  name          String
+  email         String   @unique
+  cardUID       String   @unique
+  hasPaid       Boolean  @default(false)
+  cardStatus    String   @default("active")
+  institutionId Int?
+  image         String?  // URL or path to student image
+  class         String?  // Student's class/grade
+  created_at    DateTime @default(now())
+}
