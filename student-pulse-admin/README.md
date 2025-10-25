@@ -1,74 +1,73 @@
-# Welcome to your Lovable project
+#  Card & Student Management (CSM) System
 
-## Project info
+##  Project Description
+The **Card & Student Management (CSM) System** is an intelligent digital platform designed to automate and simplify payment tracking, access control, and attendance management within educational institutions.  
 
-**URL**: https://lovable.dev/projects/6b7f16b0-5210-4c4f-9ada-21309b2d12e5
+The system integrates **smart card technology** with a secure database to manage student records, monitor activities, and ensure accountability across all departments. Each student is issued a unique smart card linked to their profile, containing key details such as identity information, payment history, class level, and access rights.  
 
-## How can I edit this code?
+The system automatically updates a card’s status based on payment verification — granting or restricting access to facilities like classrooms, dormitories, or libraries. Administrators can manage all student data through a centralized **dashboard** where they can view reports, authorize students, track attendance, and receive real-time alerts.  
 
-There are several ways of editing your application.
+The **CSM System** promotes transparency, enhances security, and supports a cashless environment by connecting directly to bank systems or digital payment platforms. It eliminates manual record-keeping, reduces fraud, and improves overall operational efficiency.
 
-**Use Lovable**
+---
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/6b7f16b0-5210-4c4f-9ada-21309b2d12e5) and start prompting.
+##  System Features
+-  **Smart Card Integration** – Each card is linked to a student profile for identification and tracking.  
+-  **Automated Payment Tracking** – Real-time updates for payments, balances, and receipts.  
+-  **Access Control** – Controls entry based on authorization or payment status.  
+-  **Attendance Monitoring** – Automatically records attendance through card scanning.  
+-  **Admin Dashboard** – Manage users, generate reports, and oversee system operations.  
+-  **Notifications & Alerts** – Sends instant messages for payment or access changes.  
+- **Data Security** – Uses encryption to protect sensitive student and institutional data.
 
-Changes made via Lovable will be committed automatically to this repo.
+---
 
-**Use your preferred IDE**
+## Future Plans
+The future of the **CSM System** extends beyond schools.  
+It will be expanded to support **companies, organizations, and government institutions** that need reliable systems for managing employees and facility access.  
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+In these organizations, the system can be used for:
+- Employee **attendance tracking**
+- **Salary and access control** management
+- **Performance reporting** and monitoring
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+In the education sector, upcoming improvements include:
+- Integration with **Learning Management Systems (LMS)**
+- **Automated ID card printing**
+- **AI-powered analytics** for attendance and financial reporting  
 
-Follow these steps:
+The long-term vision is to make **CSM a universal management platform** connecting schools, universities, and companies under one secure and scalable system.
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+---
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+##  Hardware Compatibility Notice
+The **CSM System** is designed to operate with selected and tested hardware components to ensure reliability and performance.  
+It will **not be compatible with all hardware parts or devices**.
 
-# Step 3: Install the necessary dependencies.
-npm i
+The system requires specific models of:
+- Card readers  
+- Microcontrollers  
+- Sensors  
+- Network devices  
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
-```
+Using unsupported hardware may result in limited functionality or instability.  
+Before installation, all hardware must be tested and configured according to the specifications provided by the CSM development team.
 
-**Edit a file directly in GitHub**
+---
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+##  Technologies Used
+- **Frontend:** HTML, CSS, JavaScript  
+- **Backend:** PHP / Node.js (optional)  
+- **Database:** MySQL or MongoDB  
+- **Hardware:** Smart card reader and access control devices  
 
-**Use GitHub Codespaces**
+---
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+##  Vision
+To create a **modern, secure, and scalable digital management system** that unites education and organizational operations — ensuring transparency, automation, and trust across all users.
 
-## What technologies are used for this project?
+---
 
-This project is built with:
-
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
-
-## How can I deploy this project?
-
-Simply open [Lovable](https://lovable.dev/projects/6b7f16b0-5210-4c4f-9ada-21309b2d12e5) and click on Share -> Publish.
-
-## Can I connect a custom domain to my Lovable project?
-
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
-# csm
+##  License
+This project is for educational and development purposes.  
+All rights reserved © 2025 – Developed by **Bruce Ruburika**.
